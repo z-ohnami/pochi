@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+	<meta title="Pochi" package="com.example.pochi" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="Pochi" />
+
+	<window background="#FFFFFF" fps="60" />
+	<window orientation="portrait" width="640" height="960" />
+
+	<source path="Source" />
+
+	<haxelib name="openfl" />
+	<haxelib name="actuate" />
+	<haxelib name="swf" />
+	<haxelib name="layout" />
+
+	<assets path="Assets" rename="assets" exclude="openfl.svg" />
+	<icon path="Assets/openfl.svg" />
+
+<!-- 	<assets path="Assets/font" rename="font" /> -->
+
+<!-- 	<library path="Assets/ui.swf" /> -->
+
+<!-- if iOS -->
+<!-- 	<certificate path="xxx.p12" password="xxx" if="ios"/> -->
+
+</project>
